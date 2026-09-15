@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TrendRadar - Entrena antes de operar</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#fff;font-family:Inter,system-ui,sans-serif}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center}
+.badge{border:1px solid #22c55e33;background:#22c55e11;color:#22c55e;padding:6px 12px;border-radius:100px;font-size:11px;letter-spacing:0.1em;margin-bottom:20px}
+h1{font-size:48px;line-height:0.9;max-width:700px;font-weight:900;letter-spacing:-0.03em}
+h1 span{color:#22c55e}
+p.sub{color:#ffffff66;margin-top:20px;max-width:520px;font-size:16px;line-height:1.5}
+.cta{margin-top:32px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.btn{height:48px;padding:0 28px;border-radius:100px;font-weight:700;font-size:14px;border:0;cursor:pointer;text-decoration:none;display:flex;align-items:center}
+.btn-primary{background:#fff;color:#000}
+.btn-secondary{background:#ffffff11;color:#fff;border:1px solid #ffffff22}
+.video-wrap{margin-top:40px;width:100%;max-width:400px;border-radius:24px;overflow:hidden;border:1px solid #ffffff11;box-shadow:0 20px 60px #000}
+.video-wrap video{width:100%;display:block}
+.features{max-width:1000px;margin:0 auto;padding:60px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:#ffffff06;border:1px solid #ffffff0d;border-radius:20px;padding:24px}
+.card h3{font-size:14px;margin-bottom:8px}
+.card p{font-size:13px;color:#ffffff66;line-height:1.5}
+footer{padding:40px;text-align:center;color:#ffffff22;font-size:11px}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="badge">EUR/USD • SIMULACIÓN EN VIVO</div>
+<h1>Deja de regalar <span>$2.50</span> por cerrar con miedo</h1>
+<p class="sub">TrendRadar te muestra en vivo cuándo 1.08125 es un espejo y cuándo es tu entrada. Entrena 12 segundos antes de operar con dinero real.</p>
+<div class="cta">
+<a class="btn btn-primary" href="simulador_final.html">Probar simulador gratis</a>
+<a class="btn btn-secondary" href="#como">Cómo funciona</a>
+</div>
+<div class="video-wrap">
+<video autoplay muted loop playsinline controls src="trendradar_12s_FINAL.mp4" poster=""></video>
+</div>
+<p style="margin-top:12px;font-size:11px;color:#ffffff44">↑ Video real del simulador - se mueve cada 1s - 12 segundos</p>
+</div>
+<div id="como" class="features">
+<div class="card"><h3>1. MODO DEMO en vivo</h3><p>Gráfica que se mueve cada segundo. Practica tu paciencia sin arriesgar capital. MA20, MA50 y soportes calculados al momento.</p></div>
+<div class="card"><h3>2. MODO REAL diario</h3><p>Datos oficiales del Banco Central Europeo. Un solo cierre por día. Sin ruido, solo tendencia real.</p></div>
+<div class="card"><h3>3. Calculadora de riesgo integrada</h3><p>Arriesga solo 2% por operación. Calcula lote, SL y TP en 3 segundos para que no cierres antes de tiempo.</p></div>
+</div>
+<footer>TrendRadar • Entrenamiento para traders • EUR/USD • 2026</footer>
+</body>
+</html>
